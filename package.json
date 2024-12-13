@@ -1,0 +1,334 @@
+`{
+  "project": {
+    "name": "SolsticeAI",
+    "symbol": "$SOLAI",
+    "description": "Pioneering the fusion of space exploration and artificial intelligence on the Solana blockchain",
+    "version": "1.0.0",
+    "type": "SPL Token",
+    "blockchain": "Solana",
+    "network": "mainnet-beta",
+    "website": "coming_soon",
+    "logo": {
+      "small": "https://github.com/SolsiticeAI/Logo/blob/main/VQrZJ.gif?raw=true",
+      "large": "https://github.com/SolsiticeAI/Logo/blob/main/VQrZJ.gif?raw=true"
+    }
+  },
+  "token": {
+    "decimals": 9,
+    "totalSupply": "1000000000",
+    "contractAddress": "coming_soon",
+    "launchDate": "2024-12-15T00:00:00Z",
+    "metrics": {
+      "currentPrice": "$0.00",
+      "marketCap": "$0M",
+      "holders": "0",
+      "circulatingSupply": "0",
+      "totalLocked": "0",
+      "tradingPairs": [
+        {
+          "pair": "SOLAI/SOL",
+          "exchange": "Raydium",
+          "liquidity": "TBA",
+          "volume24h": "TBA"
+        },
+        {
+          "pair": "SOLAI/USDC",
+          "exchange": "Raydium",
+          "liquidity": "TBA",
+          "volume24h": "TBA"
+        }
+      ],
+      "marketData": {
+        "volume24h": "$0",
+        "priceChange24h": "0%",
+        "allTimeHigh": "$0.00",
+        "allTimeLow": "$0.00"
+      }
+    }
+  },
+  "tokenomics": {
+    "distribution": [
+      {
+        "category": "Public Sale",
+        "percentage": 40,
+        "amount": "400,000,000",
+        "description": "Available for public trading and community acquisition",
+        "lockup": "No lockup",
+        "vestingDetails": "Released at TGE"
+      },
+      {
+        "category": "Development",
+        "percentage": 20,
+        "amount": "200,000,000",
+        "description": "Reserved for platform development and AI integration",
+        "lockup": "6 months",
+        "vestingDetails": "36 months linear vesting after lockup"
+      },
+      {
+        "category": "Team",
+        "percentage": 15,
+        "amount": "150,000,000",
+        "description": "Core team allocation",
+        "lockup": "12 months",
+        "vestingDetails": "24 months linear vesting after lockup"
+      },
+      {
+        "category": "Marketing",
+        "percentage": 15,
+        "amount": "150,000,000",
+        "description": "Marketing initiatives and partnerships",
+        "lockup": "3 months",
+        "vestingDetails": "18 months linear vesting after lockup"
+      },
+      {
+        "category": "Reserve",
+        "percentage": 10,
+        "amount": "100,000,000",
+        "description": "Emergency fund and future development",
+        "lockup": "12 months",
+        "vestingDetails": "36 months linear vesting after lockup"
+      }
+    ],
+    "vestingSchedule": {
+      "details": "Token vesting is implemented through smart contracts",
+      "periods": [
+        {
+          "month": "TGE",
+          "release": "Public Sale tokens (40%)"
+        },
+        {
+          "month": "Month 3",
+          "release": "Marketing begins unlocking"
+        },
+        {
+          "month": "Month 6",
+          "release": "Development begins unlocking"
+        },
+        {
+          "month": "Month 12",
+          "release": "Team and Reserve begin unlocking"
+        }
+      ]
+    }
+  },
+  "features": [
+    {
+      "id": 1,
+      "title": "AI Space Analysis",
+      "description": "Advanced neural networks process vast amounts of space data",
+      "icon": "brain-circuit",
+      "details": [
+        "Real-time data processing",
+        "Pattern recognition algorithms",
+        "Anomaly detection",
+        "Predictive analytics"
+      ],
+      "benefits": [
+        "Faster analysis of space data",
+        "Early detection of space phenomena",
+        "Improved research efficiency",
+        "Cost-effective data processing"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Space Research DAO",
+      "description": "Decentralized governance system for space research initiatives",
+      "icon": "users",
+      "details": [
+        "Community voting",
+        "Research proposal system",
+        "Transparent fund allocation",
+        "Stakeholder rewards"
+      ],
+      "benefits": [
+        "Democratic decision making",
+        "Community-driven research",
+        "Transparent governance",
+        "Fair resource allocation"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Data Marketplace",
+      "description": "Decentralized marketplace for space-related data",
+      "icon": "database",
+      "details": [
+        "Peer-to-peer trading",
+        "Data verification",
+        "AI model sharing",
+        "Revenue sharing"
+      ],
+      "benefits": [
+        "Monetization of research",
+        "Access to unique datasets",
+        "Collaborative development",
+        "Fair compensation"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Research Platform",
+      "description": "Integrated platform for space research collaboration",
+      "icon": "telescope",
+      "details": [
+        "Research tools",
+        "Data visualization",
+        "Resource sharing",
+        "Collaboration features"
+      ],
+      "benefits": [
+        "Enhanced collaboration",
+        "Streamlined research",
+        "Resource optimization",
+        "Knowledge sharing"
+      ]
+    }
+  ],
+  "roadmap": [
+    {
+      "phase": "Q1 2025",
+      "title": "Foundation",
+      "status": "current",
+      "items": [
+        {
+          "title": "Token Launch",
+          "description": "Initial token launch on Solana",
+          "status": "pending",
+          "milestones": [
+            "Smart contract deployment",
+            "Security audit",
+            "Initial liquidity",
+            "Public sale"
+          ]
+        },
+        {
+          "title": "Platform Development",
+          "description": "Core AI infrastructure development",
+          "status": "in-progress",
+          "milestones": [
+            "Architecture design",
+            "Core systems",
+            "Initial testing",
+            "MVP development"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "Q2 2025",
+      "title": "Development",
+      "status": "upcoming",
+      "items": [
+        {
+          "title": "Alpha Platform",
+          "description": "Launch alpha version of AI analysis platform",
+          "milestones": [
+            "Feature implementation",
+            "Security testing",
+            "User testing",
+            "Performance optimization"
+          ]
+        },
+        {
+          "title": "Ecosystem Growth",
+          "description": "Expand platform capabilities and reach",
+          "milestones": [
+            "DAO implementation",
+            "Data marketplace",
+            "Research tools",
+            "Community features"
+          ]
+        }
+      ]
+    },
+    {
+      "phase": "Q3 2025",
+      "title": "Expansion",
+      "status": "upcoming",
+      "items": [
+        {
+          "title": "Beta Release",
+          "description": "Full feature set deployment",
+          "milestones": [
+            "Platform optimization",
+            "Advanced AI models",
+            "Enhanced security",
+            "Performance improvements"
+          ]
+        },
+        {
+          "title": "Global Launch",
+          "description": "Worldwide platform availability",
+          "milestones": [
+            "Marketing campaign",
+            "Partnership expansion",
+            "Community growth",
+            "Market penetration"
+          ]
+        }
+      ]
+    }
+  ],
+  "team": [
+    {
+      "name": "Dr. Sarah Chen",
+      "role": "Chief AI Scientist",
+      "bio": "Former NASA AI researcher with 15 years experience in space technology",
+      "expertise": [
+        "Artificial Intelligence",
+        "Space Research",
+        "Machine Learning",
+        "Data Science"
+      ],
+      "linkedin": "coming_soon"
+    },
+    {
+      "name": "Alex Kowalski",
+      "role": "Blockchain Lead",
+      "bio": "Solana core contributor and distributed systems expert",
+      "expertise": [
+        "Blockchain Development",
+        "Smart Contracts",
+        "System Architecture",
+        "DeFi"
+      ],
+      "linkedin": "coming_soon"
+    },
+    {
+      "name": "Maria Rodriguez",
+      "role": "Space Research Director",
+      "bio": "20+ years in aerospace and satellite systems",
+      "expertise": [
+        "Space Technology",
+        "Research Management",
+        "Satellite Systems",
+        "Project Leadership"
+      ],
+      "linkedin": "coming_soon"
+    }
+  ],
+  "social": {
+    "website": "coming_soon",
+    "twitter": "coming_soon",
+    "telegram": "coming_soon",
+    "discord": "coming_soon",
+    "medium": "coming_soon",
+    "github": "coming_soon"
+  },
+  "contact": {
+    "email": "coming_soon",
+    "support": "coming_soon",
+    "business": "coming_soon"
+  },
+  "legal": {
+    "company": "SolsticeAI Labs Ltd.",
+    "registration": "Coming Soon",
+    "documents": {
+      "whitepaper": "/docs/whitepaper.pdf",
+      "terms": "/legal/terms",
+      "privacy": "/legal/privacy"
+    }
+  }
+}
+`
